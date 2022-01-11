@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+  </head>
+  <body class="body">
+    <form class="survey__form">
+      <label>
+          Pulning qiymatini yozing:
+        <input
+          class="survey__input"
+          placeholder="sum"
+          required
+          type="number"
+        />
+      </label>
+
+      <select class="select" name="type_of_value">
+        <option value="usd">USD</option>
+        <option value="eur">EUR</option>
+        <option value="rub">RUB</option>
+      </select>
+
+      <button class="button" type="submit">Calculate</button>
+
+      <h1 class="survey__result"></h1>
+    </form>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+.survey__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.survey__input {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.select {
+    margin-bottom: 20px;
+}
+
+.button {
+    margin-bottom: 20px;
+}
+
+.survey__result {
+    margin: 0; 
+}
